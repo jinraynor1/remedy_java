@@ -16,9 +16,8 @@ import java.io.StringWriter;
 
 public class DummyClient {
 
-    String soapEndpointUrl = "http://172.19.157.196:8082/arsys/services/ARService?server=limdesrmedyv03&webService=HPD_IncidentInterface_Create_WS1";
-    String userName = "C10537";
-    String password = "Claro123";
+    String soapEndpointUrl = "http://127.0.0.1:8082/arsys/services/ARService?server=limdesrmedyv03&webService=HPD_IncidentInterface_Create_WS1";    String userName = "YOUR USERNAME";
+    String password = "YOUR PASSWORD";
     String soapAction = "urn:HPD_IncidentInterface_Create_WS1/HelpDesk_Submit_Service";
 
 
